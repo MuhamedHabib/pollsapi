@@ -1,3 +1,4 @@
+/*
 version: 2
 jobs:
   build:
@@ -27,6 +28,38 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
+            cd pollsapi
+            python manage.py test
+      - store_artifacts:
+          path: test-reports
+          destination: test-reports
+*/
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.1
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "pollsapi/requirements.txt" }}
+            - v1-dependencies-
+      - run:
+          name: Install dependencies
+          command: |
+            python3 -m venv venv
+            source venv/bin/activate
+            pip install -r pollsapi/requirements.txt
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "pollsapi/requirements.txt" }}
+      - run:
+          name: Run tests
+          command: |
+            source venv/bin/activate
             cd pollsapi
             python manage.py test
       - store_artifacts:
