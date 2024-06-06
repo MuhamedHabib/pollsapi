@@ -14,4 +14,8 @@ CircleCI-complete-Django-APIs-project
   * clear and brief documentation for any function 
   
   For more information : https://www.linkedin.com/in/mohamed-habib-khattat-2b206a173/
+
+  # deployement
+  - coming soon .....
+
   
