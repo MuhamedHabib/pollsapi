@@ -13,5 +13,6 @@ CircleCI-complete-Django-APIs-project :: DEVOPS :: CI
   * build APIs thanks to Django Restful API and their Class based Functions
   * clear and brief documentation for any function 
   
-  For more information : https://www.linkedin.com/in/mohamed-habib-khattat-2b206a173/
-  
+  - For more information : https://www.linkedin.com/in/mohamed-habib-khattat-2b206a173/
+
+  - Professional github account: https://github.com/MohamedKhattat
