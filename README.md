@@ -1,5 +1,5 @@
 # pollsapi
-CircleCI-complete-Django-APIs-project
+CircleCI-complete-Django-APIs-project :: DEVOPS :: CI
 
 
 - This a basic Python Project based on Django, Django Restful Api and CircleCI for continuous integration
@@ -13,5 +13,6 @@ CircleCI-complete-Django-APIs-project
   * build APIs thanks to Django Restful API and their Class based Functions
   * clear and brief documentation for any function 
   
-  For more information : https://www.linkedin.com/in/mohamed-habib-khattat-2b206a173/
-  
+  - For more information : https://www.linkedin.com/in/mohamed-habib-khattat-2b206a173/
+
+  - Professional github account: https://github.com/MohamedKhattat
