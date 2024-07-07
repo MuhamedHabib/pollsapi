@@ -18,4 +18,6 @@ CircleCI-complete-Django-APIs-project
   # deployement
   - coming soon .....
 
+ If you're using this app, please consider giving me a star on GitHub, I'll appreciate it :).
+ for further information or guided book app dm me on : mohamedhabib.khattat@esprit.tn
   
